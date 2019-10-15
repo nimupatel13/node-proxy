@@ -25,7 +25,7 @@ app.get('/',async function func(req,res){
 	var respo;
 	var obj;
 	var parallel = async function(req,res) {
-	  console.log('==PARALLEL with await Promise.all==');
+	  //console.log('==PARALLEL with await Promise.all==');
   
 	  
 	  await Promise.all([
