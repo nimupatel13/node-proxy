@@ -4,8 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var async = require('asyncawait/async');
-var await = require('asyncawait/await');
+var async = require('async');
+var await = require('await');
 var request = require('request');
 
 var app = express();
